@@ -1,0 +1,38 @@
+{
+  "name": "@opentui-chart/core",
+  "version": "0.1.0",
+  "description": "Chart plugin for OpenTUI — Line, Bar, Pie, Scatter, Area, Heatmap, Gauge & Sparkline charts for the terminal",
+  "module": "src/index.ts",
+  "main": "src/index.ts",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "demo": "bun run demo.ts",
+    "demo:all": "bun run demo-all.ts",
+    "demo:animated": "bun run demo-animated.ts",
+    "demo:line": "bun run demos/line.ts",
+    "demo:bar": "bun run demos/bar.ts",
+    "demo:pie": "bun run demos/pie.ts",
+    "demo:scatter": "bun run demos/scatter.ts",
+    "demo:area": "bun run demos/area.ts",
+    "demo:stacked-bar": "bun run demos/stacked-bar.ts",
+    "demo:heatmap": "bun run demos/heatmap.ts",
+    "demo:gauge": "bun run demos/gauge.ts",
+    "demo:sparkline": "bun run demos/sparkline.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["opentui", "tui", "terminal", "charts", "graph", "visualization"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "@opentui/core": ">=0.1.0"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.1.84"
+  }
+}
