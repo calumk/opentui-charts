@@ -1,5 +1,5 @@
 {
-  "name": "@opentui-chart/core",
+  "name": "@calumk/opentui-chart",
   "version": "0.1.0",
   "description": "Chart plugin for OpenTUI — Line, Bar, Pie, Scatter, Area, Heatmap, Gauge & Sparkline charts for the terminal",
   "module": "src/index.ts",
